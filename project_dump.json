@@ -1,0 +1,796 @@
+[
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Sergii",
+        "last_name": "Shevchenko",
+        "car_id": 8,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2018 Toyota Corolla",
+        "city": "Lausanne",
+        "state": "Vaud",
+        "email": "sergiishevchenko017@gmail.com",
+        "phone": "+41778154379",
+        "message": "My comment",
+        "user_id": 1,
+        "create_date": "2020-12-03T15:48:44.761Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "ID",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 40000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>.</p>",
+        "car_photo": "photos/2020/12/02/1902537043_BBpM5n0.jpg",
+        "car_photo_1": "photos/2020/12/02/1902536917_qyHBFnA.jpg",
+        "car_photo_2": "photos/2020/12/02/1902537077_4ugQoXr.jpg",
+        "car_photo_3": "photos/2020/12/02/1902537082_VJ9GwIE.jpg",
+        "car_photo_4": "photos/2020/12/02/1902536891_Cgik7F5.jpg",
+        "features": "Audio Interface,Alarm System,Power Steering,Wind Deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 10000,
+        "doors": "3",
+        "passengers": "2",
+        "vin_no": "W42332431423412",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2020-12-02T13:37:27Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "AZ",
+        "city": "Phoenix",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The 2017 Ford Edge ranks in the top third of our midsize SUV rankings. It has a roomy cabin, and compared to its classmates, it boasts agile handling and good gas mileage for the segment.</p>",
+        "car_photo": "photos/2020/12/02/1901478687.jpg",
+        "car_photo_1": "photos/2020/12/02/1901478672.jpg",
+        "car_photo_2": "photos/2020/12/02/1901478618.jpg",
+        "car_photo_3": "photos/2020/12/02/1901478646.jpg",
+        "car_photo_4": "photos/2020/12/02/1901478607.jpg",
+        "features": "Cruise Control,Alarm System,Power Steering,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": "5",
+        "vin_no": "W4233243142467347",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2020-12-02T13:43:44Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "F-250",
+        "year": 2017,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(short for F-Series Super Duty) is a series of trucks manufactured by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>.&nbsp;</p>",
+        "car_photo": "photos/2020/12/02/1900155012.jpg",
+        "car_photo_1": "photos/2020/12/02/1900155133.jpg",
+        "car_photo_2": "photos/2020/12/02/1894300894.jpg",
+        "car_photo_3": "photos/2020/12/02/1894300920.jpg",
+        "car_photo_4": "photos/2020/12/02/1894300905.jpg",
+        "features": "Cruise Control,Seat Heating,ParkAssist,Power Steering,Wind Deflector",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 13000,
+        "doors": "3",
+        "passengers": "2",
+        "vin_no": "W42332431423498989",
+        "milage": 10,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2020-12-02T13:48:22Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "ND",
+        "city": "Bismarck",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;is a&nbsp;compact luxury&nbsp;crossover SUV&nbsp;made by British&nbsp;car manufacturer&nbsp;Jaguar Land Rover&nbsp;under their&nbsp;Jaguar marque, the first model to be built by Jaguar in the crossover SUV class. It was formally announced at the&nbsp;2015 North American International Auto Show&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;International Motor Show Germany&nbsp;in Frankfurt in September 2015.</p>",
+        "car_photo": "photos/2020/12/02/1902932528.jpg",
+        "car_photo_1": "photos/2020/12/02/1902932503.jpg",
+        "car_photo_2": "photos/2020/12/02/1902932514.jpg",
+        "car_photo_3": "photos/2020/12/02/1902932542.jpg",
+        "car_photo_4": "",
+        "features": "Cruise Control,Airbags,ParkAssist,Power Steering,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V4",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12500,
+        "doors": "5",
+        "passengers": "5",
+        "vin_no": "W423324314323432423",
+        "milage": 7,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2020-12-02T13:53:11Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 7,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "KY",
+        "city": "Frankfort",
+        "color": "Silver",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 25600,
+        "description": "<p>The&nbsp;<strong>Toyota 4Runner</strong>&nbsp;is a compact, later mid-size&nbsp;sport utility vehicle&nbsp;produced by the Japanese manufacturer&nbsp;Toyota&nbsp;and sold throughout the world from 1984 to present.&nbsp;</p>",
+        "car_photo": "photos/2020/12/02/1896836883.jpg",
+        "car_photo_1": "photos/2020/12/02/1896836887.jpg",
+        "car_photo_2": "photos/2020/12/02/1893633879.jpg",
+        "car_photo_3": "photos/2020/12/02/1893633884.jpg",
+        "car_photo_4": "photos/2020/12/02/1893633875.jpg",
+        "features": "Cruise Control,Air Conditioning,Alarm System,Power Steering,Wind Deflector",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V8",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": "5",
+        "vin_no": "W4233243143234321432",
+        "milage": 4,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2020-12-02T18:27:11Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 8,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "IA",
+        "city": "Des Moines",
+        "color": "White",
+        "model": "Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 32000,
+        "description": "<p>The&nbsp;<strong>Toyota Corolla</strong>&nbsp;(Japanese: トヨタ・カローラ,&nbsp;<em>Toyota Karōra</em>)&nbsp;is a line of&nbsp;subcompact&nbsp;and&nbsp;compact cars&nbsp;manufactured by&nbsp;Toyota. Introduced in 1966, the Corolla was the best-selling car worldwide by 1974 and has been one of the best-selling cars in the world since then. In 1997, the Corolla became the&nbsp;best selling nameplate in the world, surpassing the&nbsp;Volkswagen Beetle.</p>",
+        "car_photo": "photos/2020/12/02/1900893391.jpg",
+        "car_photo_1": "photos/2020/12/02/1900893329.jpg",
+        "car_photo_2": "photos/2020/12/02/1900893319.jpg",
+        "car_photo_3": "photos/2020/12/02/1900893311.jpg",
+        "car_photo_4": "photos/2020/12/02/1900893299.jpg",
+        "features": "Audio Interface,Seat Heating,Power Steering,Direct Fuel Injection",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 12400,
+        "doors": "5",
+        "passengers": "5",
+        "vin_no": "W42332431499099",
+        "milage": 6,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2020-12-02T18:31:08Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2020/12/02/avatar-11.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2020-12-02T08:14:00.456Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2020/12/02/avatar-9.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2020-12-02T08:15:39.053Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Co-Founder",
+        "photo": "photos/2020/12/02/avatar-1.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2020-12-02T08:17:10.853Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2020/12/02/avatar-12.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2020-12-02T08:18:22.283Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2020/12/02/avatar-10.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2020-12-02T08:19:29.659Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$LpcOt9vqAsSI$dwqM0XQLiFlZ/F5SMAPUbrbQuy1MxAXdl2/xyZqS1EM=",
+        "last_login": "2020-12-03T18:11:07.662Z",
+        "is_superuser": true,
+        "username": "serg",
+        "first_name": "",
+        "last_name": "",
+        "email": "sergiishevchenko017@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-12-01T19:21:57.315Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!y62mGkkLApUfCAA8la7mHFJZAnHXj5jTNOsXpx2O",
+        "last_login": "2020-12-03T18:10:29.312Z",
+        "is_superuser": false,
+        "username": "sergii",
+        "first_name": "Sergii",
+        "last_name": "Shevchenko",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-12-03T14:15:17.804Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0swz7hdle8j714ga9diuetfy6fbhvqns",
+    "fields": {
+        "session_data": "eyJzb2NpYWxhY2NvdW50X3N0YXRlIjpbeyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn0sImVNR3lzaFhFY2J3TSJdfQ:1kkpNf:fuJO-NqQzTpSvtIa3yDHkBgf0EakR5sTZHkWHYLEdhY",
+        "expire_date": "2020-12-17T14:14:47.888Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "2917197371834808",
+        "secret": "6536dcf115a0d469aadeced590043a31",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google login",
+        "client_id": "932060189472-9o2ekebvpbj7riotejavt6sj5eg3v9ea.apps.googleusercontent.com",
+        "secret": "aBMPOjBfLoKj-QtFVXiyy_wZ",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "sergii"
+        ],
+        "provider": "facebook",
+        "uid": "3652382004784187",
+        "last_login": "2020-12-03T18:10:29.295Z",
+        "date_joined": "2020-12-03T14:15:17.820Z",
+        "extra_data": "{\"id\": \"3652382004784187\", \"name\": \"Sergii Shevchenko\", \"first_name\": \"Sergii\", \"last_name\": \"Shevchenko\"}"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 1,
+    "fields": {
+        "app": 1,
+        "account": 1,
+        "token": "EAApdLPEWgbgBAJ4LM2rITzKDhXP8NgHFkasP2MjUnDgd37znsM9RPiuDRnZBm6C4vBGc7vhYZCmoQpue5yo2QAgMrYzhXJkAcdnm0xlMVDmnj0ohU6Ca9ORXRqvR2E23ajzR14BrgCBdNLkkmGLFlI2GYjG5ufQW7yuyZCR7wZDZD",
+        "token_secret": "",
+        "expires_at": "2021-02-01T14:15:16.964Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-12-01T19:49:37.423Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-12-02T08:10:42.634Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Sergii",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-12-02T08:12:20.233Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Sergii",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-12-02T08:14:00.458Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Martin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-12-02T08:15:39.055Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Stone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-12-02T08:17:10.855Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-12-02T08:17:33.196Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-12-02T08:18:22.285Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "John",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-12-02T08:19:29.660Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Michelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-12-02T13:38:08.268Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-12-02T13:43:45.773Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-12-02T13:48:23.884Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-12-02T13:55:10.320Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-12-02T14:54:48.846Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-12-02T14:55:02.273Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-12-02T18:27:13.675Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-12-02T18:31:10.212Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "8",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-12-03T14:01:55.946Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Sergii Shevchenko",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-12-03T14:02:16.512Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-12-03T14:03:52.437Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-12-03T14:33:04.549Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-12-03T15:48:17.346Z",
+        "user": [
+            "serg"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "sergiishevchenko017@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
