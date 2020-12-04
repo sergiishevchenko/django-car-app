@@ -15,4 +15,4 @@ python3 manage.py migrate
 python manage.py createsuperuser
 python3 manage.py runserver
 ```
-You can see deployed project on Heroku here - 
+You can see deployed project on Heroku here - https://django-car-app.herokuapp.com/ 
