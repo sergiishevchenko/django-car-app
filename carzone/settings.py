@@ -14,7 +14,7 @@ SECRET_KEY = '+$&8jm%$@6^l-7c%9x_97_i8dq1aeq(-r%v%b*@ix%&_471rwg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
