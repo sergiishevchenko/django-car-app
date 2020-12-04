@@ -92,9 +92,7 @@ DATABASES = {
 }
 
 # DATABASES = {'default': dj_database_url.config(default='postgres://postgres:pythondeveloper2019@localhost/carzone_db')}
-
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+DATABASES = {'default': dj_database_url.config(default="postgres://jvpplksdempjah:45f8829e579c8a98ba42054144c98a92eb8798743b19a9e9e91c6758cde73361@ec2-54-205-26-79.compute-1.amazonaws.com:5432/d2qltboothqb5o")}
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
